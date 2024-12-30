@@ -55,7 +55,7 @@ Feel free to modify the HTML and CSS to match your personal style and preference
 
 ## Live Demo
 The website is hosted online using GitHub Pages. Visit it here:
-[https://halmosb.github.io/personal-cv-website/](https://halmosb.github.io/personal-cv-website/)
+[https://halmosb.github.io/CV/](https://halmosb.github.io/CV/)
 
 ## Acknowledgments
 - Built with simple HTML and CSS.
