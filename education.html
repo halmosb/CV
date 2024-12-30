@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Main</a>
+            <a href="education.html">Education</a>
+            <a href="employment.html">Employment</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <div class="content">
+        <h1>Education</h1>
+        <p>Here is a summary of my educational background:</p>
+        <div class="education-section">
+            <div class="institute">
+                <h2>Tampere University</h2>
+                <p class="country">Tampere, Finland</p>
+                <p class="year">2023 - </p>
+                <p class="degree">Bachelor's studies in Natural Sciences and Mathematics, Science and Engineering</p>
+                <p class="major-minor">
+                    <strong>Major:</strong> Physics<br>
+                    <strong>Minor:</strong> Applied mathematics
+                </p>
+            </div>
+
+            <div class="institute">
+                <h2>II. Rákóczi Ferenc High School</h2>
+                <p class="country">Budapest, Hungary</p>
+                <p class="year">2017 - 2023</p>
+                <p class="degree">High school studies</p>
+                <p class="major-minor">
+                    <strong>Specialization:</strong> Physics, Mathematics
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <span id="currentYear"></span> Balázs Paszkál Halmos
+    </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        // Display the year on the webpage
+        document.getElementById("currentYear").textContent = currentYear;
+    </script>
+</body>
+</html>

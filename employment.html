@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Main</a>
+            <a href="education.html">Education</a>
+            <a href="employment.html">Employment</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <div class="content">
+        <h1>Employment</h1>
+        <p>Here is a summary of my professional experience:</p>
+        <div class="employment-section">
+            <div class="institute">
+                <h2>Tampere University</h2>
+                <p class="country">Tampere, Finland</p>
+                <div class="position">
+                    <p class="year">2024 - </p>
+                    <p class="position-desription">Teaching Assistant</p>
+                    <p class="place">Faculty of Engineering and Natural Sciences</p>
+                    <p class="employment-info">Course: University Physics 1-3.</br>Responsibilities: Supervising excercise sessions, grading exams.<br/>Skills: teaching, explaining, groupwork.</p>
+                </div>
+                <div class="position">
+                    <p class="year">2024</p>
+                    <p class="position-desription">Research Assistant</p>
+                    <p class="place">Experimental Quantum Optics Group</p>
+                    <p class="employment-info">Experimental research on propagating optical vortices.</br> Used tool: MATLAB.</br> Responsibilities: measuring, analyzing images, creating figures.<br/>Skills: measurement, research, data analysis, programming, groupwork, reporting, presentation.</p>
+                </div>
+                <div class="position">
+                    <p class="year">2023-2024</p>
+                    <p class="position-desription">Research Assistant</p>
+                    <p class="place">Theoretical Optics and Photonics Group</p>
+                    <p class="employment-info">Simulating isolated optical vortex knots.</br> Used tools: Python, Google Colaboratory.</br> Responsibilities: creating and running a simulation. Analyzing data.<br/>Skills: research, theoretical physics, groupwork, reporting, presentation.</p>
+                </div>
+            </div>
+            <div class="institute">
+                <h2>HUN-REN Wigner Research Centre for Physics</h2>
+                <p class="country">Budapest, Hungary</p>
+                <div class="position">
+                    <p class="year">2024 - </p>
+                    <p class="position-desription">Research Assistant</p>
+                    <p class="place">Data and Compute Intensive Sciences Research Group</p>
+                    <p class="employment-info">Time series data classification.</br> Used tools: Python, PyTorch, MATLAB, GitHub.</br> Responsibilities: Implementing the algorithm in python and running it on datasets on GPUs. Supervising high school students on summer school.<br/>Skills: research, reporting, scientific writing, teaching, groupwork, leadership.</p>
+                </div>
+                <div class="position">
+                    <p class="year">2022 - 2024</p>
+                    <p class="position-desription">Research Trainee and Summer Student</p>
+                    <p class="place">Data and Compute Intensive Sciences Research Group</p>
+                    <p class="employment-info">Computational physics, computer vision, building robot.</br> Used tools: Python, PyTorch, OpenCV, GitHub.</br> Responsibilities: Writing code for communication with the robot. Analyzing images using classicial and neural network approaches. Supervising high school students on summer school.<br/>Skills: programming, groupwork, presenting, reporting, research.</p>
+                </div>
+            </div>
+            <div class="institute">
+                <h2>QHungary</h2>
+                <p class="country">Budapest, Hungary</p>
+                <div class="position">
+                    <p class="year">2023</p>
+                    <p class="position-desription">QBronze organizer, presenter</p>
+                    <p class="employment-info">Organizing and presenting at a QBronze, which is a short course where people can learn the basics of quantum computing.</br> Used tools: Python, Qiskit, IBM Quantum.</br> Responsibilities: Presenting about the basics of Qiskit. Helping during the interactive parts of the sessions.<br/>Skills: presenting, explaining, teaching.</p>
+                </div>
+            </div>
+            <div class="institute">
+                <h2>Budapest University of Technology and Economics</h2>
+                <p class="country">Budapest, Hungary</p>
+                <div class="position">
+                    <p class="year">2021 - 2022</p>
+                    <p class="position-desription">Research Assistant</p>
+                    <p class="place">Department of Theoretical Physics</p>
+                    <p class="employment-info">Simulating quantum error correction.</br> Used tools: Python, Qiskit, IBM Quantum, Google Colaboratory.</br> Responsibilities: Creating and runing a simulation which simulates the repetition code on quantum computers.<br/>Skills: theoretical and computational physics, groupwork, presenting, reporting.</p>
+                </div>
+            </div>
+        </div>
+        <h1>Community service</h1>
+        <div class="employment-section">
+            <div class="institute">
+                <h2>Movement Development Primary and Secondary School</h2>
+                <p class="country">Budapest, Hungary</p>
+                <div class="position">
+                    <p class="year">2019 - 2023</p>
+                    <p class="position-desription">Assistant</p>
+                    <p class="employment-info">There was a community space there, where all the students intersted in science and engineering could join. There were weekly meetings and many tools: laser cutter, LEGO robots, drones, and 3D printers there. My tasks was to help if someone needed when using the devices, or to bring project ideas on which we could work on.<br/>Skills: empathy, openness, leadership.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <span id="currentYear"></span> Balázs Paszkál Halmos
+    </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        // Display the year on the webpage
+        document.getElementById("currentYear").textContent = currentYear;
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balázs Paszkál Halmos - CV</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Main</a>
+            <a href="education.html">Education</a>
+            <a href="employment.html">Employment</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    
+    <div class="main clearfix">
+        <h1>Balázs Paszkál Halmos</h1>
+        <div class="clearfix">
+            <img src="img/profile.jpg" alt="Profile Picture">
+            <p>Hello!</p>
+            <p>My name is Balázs Paszkál Halmos, I am a second-year physics student at Tampere University. Welcome to my personal CV website where you can learn more about my education, employment history, and projects on which I was working on previously.</p>
+        </div>
+
+        <h2>Languages</h2>
+        <ul>
+            <li>Hungarian (mother tongue)</li>
+            <li>English (C1)</li>
+            <li>Finnish (A2)</li>
+        </ul>
+        <h2>Programming and script languages</h2>
+        <ul>
+            <li>Python (advanced)</li>
+            <li>MATLAB (advanced)</li>
+            <li>LaTeX (intemediate)</li>
+            <li>C++ (beginner)</li>
+            <li>HTML (beginner)</li>
+            <li>CSS (beginner)</li>
+            <li>JavaScript (beginner)</li>
+        </ul>
+        <h2>Interests</h2>
+        <ul>
+            <li>Broad interests in natural sciences, mainly in (computational, laser) physics.</li>
+            <li>Quantum computing</li>
+            <li>Laser cutting</li>
+            <li>3D printing</li>
+            <li>Wall climbing</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; <span id="currentYear"></span> Balázs Paszkál Halmos
+    </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        // Display the year on the webpage
+        document.getElementById("currentYear").textContent = currentYear;
+    </script>
+</body>
+</html>
